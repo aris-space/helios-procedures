@@ -10,7 +10,7 @@ jobs:
     - name: Compile LaTeX document
       uses: xu-cheng/latex-action@v3
       with:
-        working_directory: src/DACS-SW/DACS-Control-Station-Installation/
+        working_directory: src/dacs-sw/dacs-control-station-installation/
         root_file: main.tex
         work_in_root_file_dir: true
 
