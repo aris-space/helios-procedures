@@ -1,4 +1,3 @@
-# .github/workflows/tagpr.yml
 name: tagpr
 on:
   push:
