@@ -7,6 +7,11 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Remove waterkmark
+      # Set the variable controlling the watermark addition to `false`
+      run: |
+        sed -i 's/\\setboolean{isDraft}{true}/\\setboolean{isDraft}{false}/' src/dacs-sw/control-station-installation/main.tex
+
     - name: Compile LaTeX document
       uses: xu-cheng/latex-action@v3
       with:
