@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.0.11](https://github.com/aris-space/helios-procedures/compare/v0.0.10...v0.0.11) - 2024-05-12
+- fix(ci): Re-add accidentally removed `tag_name` line by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/30
+
+## [v0.0.10](https://github.com/aris-space/helios-procedures/compare/v0.0.9...v0.0.10) - 2024-05-12
+- fix(ci): Remove unused CI config file by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/26
+- ci: Rename PDF in CI by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/27
+
 ## [v0.0.9](https://github.com/aris-space/helios-procedures/compare/v0.0.8...v0.0.9) - 2024-05-12
 - ci: Rename PDF for release by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/24
 
