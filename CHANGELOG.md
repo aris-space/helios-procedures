@@ -1,5 +1,27 @@
 # Changelog
 
+## [v0.0.20](https://github.com/aris-space/helios-procedures/compare/v0.0.19...v0.0.20) - 2024-05-22
+- fix(ci): Do not show draft watermark on release files by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/59
+
+## [v0.0.19](https://github.com/aris-space/helios-procedures/compare/v0.0.18...v0.0.19) - 2024-05-22
+- ci: Compile all procedures in a single step by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/52
+
+## [v0.0.18](https://github.com/aris-space/helios-procedures/compare/v0.0.17...v0.0.18) - 2024-05-22
+- style(ci): Trim trailing newline by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/53
+- chore: Fix typo by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/54
+- ci: Create parent folder if not exists by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/56
+- chore: Fix typo in CI step name by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/57
+
+## [v0.0.17](https://github.com/aris-space/helios-procedures/compare/v0.0.16...v0.0.17) - 2024-05-21
+- fix(ci): Compile database ingestion document by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/50
+
+## [v0.0.16](https://github.com/aris-space/helios-procedures/compare/v0.0.15...v0.0.16) - 2024-05-21
+- docs: Mention how to delete lines in procedures by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/43
+- docs: Mention that `main` does not allow direct pushing by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/44
+- style(ci): Trim trailing newlines by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/47
+- feat: Add skeleton for database ingestion procedure by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/48
+- fix(ci): Prefix all dacs-sw files with the corresponding string by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/49
+
 ## [v0.0.15](https://github.com/aris-space/helios-procedures/compare/v0.0.14...v0.0.15) - 2024-05-20
 - fix(ci): Copy rendered template to release folder by @tgeorg-ethz in https://github.com/aris-space/helios-procedures/pull/41
 
