@@ -21,8 +21,11 @@ for root, dirs, files in os.walk(base_folder):
         old_path = os.path.join(root, file)
 
         # Create the new file name with '-' instead of '/'
-        relative_path = os.path.relpath(old_path, base_folder)
+        relative_path = os.path.relpath(root, base_folder)
         new_filename = relative_path.replace(os.sep, "-")
+
+        # Add the '.pdf' extension to the new filename
+        new_filename += ".pdf"
 
         # Construct the new file path
         new_path = os.path.join(release_folder, new_filename)
