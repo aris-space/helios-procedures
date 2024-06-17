@@ -21,7 +21,7 @@ jobs:
 
     - name: Compile all LaTeX documents
       if: ${{ steps.tagpr.outputs.tag != '' }}
-      run: python3 scripts/compile_latex.py
+      run: python3 scripts/compile-all-latex.py
 
     - name: Rename files and move to single release folder
       if: ${{ steps.tagpr.outputs.tag != '' }}
